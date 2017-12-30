@@ -866,7 +866,7 @@ champ.
 
     Puisque la méthode ``read`` écrase toute information stockée dans les
     propriétés ``data`` et ``id`` du model, vous devez faire très attention
-    quand vous utilisez cete fonction en général, spécialement en l'utilisant
+    quand vous utilisez cette fonction en général, spécialement en l'utilisant
     dans les fonctions de callbacks du model comme ``beforeValidate`` et
     ``beforeSave``. Généralement la fonction ``find`` est une façon de faire
     plus robuste et facile à utiliser avec l'API que la méthode ``read``.
